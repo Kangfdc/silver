@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+  }
+
+/* 🏞️ 전체 배경 스타일 */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(120deg, #1e3c72, #2a5298); /* 블루 그라디언트 */
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 50px 0;
+}
+
+/* 📝 제목 스타일 */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* 📌 링크 스타일 */
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  background: rgba(255, 255, 255, 0.2); /* 반투명한 느낌 */
+  padding: 15px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🎨 호버 효과 */
+a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: #333;
+  transform: scale(1.05);
+}
+
+/* 🌟 구분선 디자인 */
+hr {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

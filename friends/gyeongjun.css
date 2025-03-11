@@ -8,3 +8,7 @@ body{
     background-image: url('https://i.namu.wiki/i/618ly3_MOBr21vg2uCuNvL_ZykjWKjnsq2k-xjweTpg5p7B63xC3s0MxxheZFODGfjq6w3r-4QaumlXf04WZXtuccj6LKMMRTYnBzZ6dDqZTRTdjJvh7Hw-S5UjVumRF7uIs9p6xMyHEew1drAK_0A.webp');
     color: white; 
   }
+h1.font {
+    color: black;      
+    font-size: 50px;    
+}

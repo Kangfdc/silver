@@ -1,8 +1,13 @@
 body{
     text-align: center;
+    background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png') repeat;
+    background-color: #222;
+    color: #ddd;
   
   }
-
+h1{
+  font-size: 60px;
+}
 b1{
     color:red;
     text-decoration: none; 
@@ -33,7 +38,6 @@ a{
   display: block;
   text-decoration: none;
   font-size: 1.5rem;
-  color: blue;
   background: rgba(203, 89, 231, 0.2); 
   padding: 15px;
   margin: 10px auto;
@@ -42,3 +46,10 @@ a{
   transition: all 0.3s ease-in-out;
 }
 
+.big-text {
+  font-size: 35px;
+}
+
+.medium-text {
+  font-size: 26px;
+}

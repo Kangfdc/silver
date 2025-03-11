@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+  }
+
+b1{
+    color:red;
+    text-decoration: none; 
+}
+b2{
+  color: orange;
+  text-decoration: none; 
+
+}
+b3{
+  color:yellow;
+  text-decoration: none
+
+}
+b4{
+  color:gainsboro;
+  text-decoration: none
+
+}
+.gong {
+  display: block;
+  padding: 25px;
+  
+}

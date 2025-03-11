@@ -7,31 +7,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
     <title>하명헌애기</title>
     <style>
-        .year {
-            display: block;
-            padding: 3rem 0;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .font {
+        body {
             font-family: 'Yeon Sung', cursive;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
         }
 
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-auto-rows: 200px;
-        gap: 75px;
-        padding: 30px;
-        max-width: 900px;
-        margin: auto;
-    }
+        h1 {
+            margin-bottom: 20px;
+        }
 
-    .gallery img {
-        width: 120%;
-        height: 130%;
-        object-fit: cover;
-        border-radius: 10px;
-    }
+        .gallery {
+            column-count: 3; 
+            column-gap: 15px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+    
+        @media (max-width: 900px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .gallery {
+                column-count: 1;
+            }
+        }
 </style>
 
 </div>
@@ -45,10 +63,10 @@
         <img src="hmh3.jpg"="하명헌3">
         <img src="hmh4.jpg" alt="하명헌4">
         <img src="hmh5.jpg" alt="하명헌1">
-        <img src="hmh2.JPG" alt="하명헌2">
-        <img src="hmh3.jpg"="하명헌3">
-        <img src="hmh4.jpg" alt="하명헌4">
+        <img src="hmh06.jpg" alt="하명헌2">
+        <img src="hmh7.JPG"="하명헌3">
+        <img src="hmh8.JPG" alt="하명헌4">
         
-
+사진 출처:https://i.namu.wiki/i/sjOsR9xW0Oa3UmhdHR14_vySRRqOGgliEH-mYPH6hZAqDsR47bCJ3WnNJSP9JWNzlJyGQ9VxmthYBW92g2aKvEsBzXPk2afIn92OrjqjO46-TdG09fwXujucLV89cQKDUhOzoav2J4g7SgLAsG_aIw.webp
 </body>
 </html>

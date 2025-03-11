@@ -3,48 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./kms.css">
     <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
     <title>김민성 땅딸보 새끼</title>
 
     <style>
-        .year {
-            display: block;
-            padding: 3rem 0;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .font {
+        body {
             font-family: 'Yeon Sung', cursive;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
         }
 
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-auto-rows: 200px;
-        gap: 10px;
-        padding: 10px;
-        max-width: 900px;
-        margin: auto;
-    }
+        h1 {
+            margin-bottom: 20px;
+        }
 
-    .gallery img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 10px;
-    }
-</style>
+        .gallery {
+            column-count: 3; 
+            column-gap: 15px;
+            max-width: 1000px;
+            margin: auto;
+        }
 
-</div>
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+    
+        @media (max-width: 900px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .gallery {
+                column-count: 1;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1 class="font">김민성 땅딸보 새끼</h1><br><br>
+    <h1>김민성 땅딸보 새끼</h1>
     <div class="gallery">
         <img src="kms1.jpg" alt="kms1">
         <img src="kms2.JPG" alt="kms2">
-        <img src="kms3.JPG"="kms3">
+        <img src="kms3.JPG" alt="kms3">
         <img src="kms4.JPG" alt="kms4">
-        
+        <img src="kms5.JPG" alt="kms5">
+        <img src="kms6.JPG" alt="kms6">
+    </div>
 </body>
 </html>

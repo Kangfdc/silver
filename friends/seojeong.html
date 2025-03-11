@@ -7,34 +7,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
     <title>장서정</title>
     <style>
-        .year {
-            display: block;
-            padding: 3rem 0;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .font {
+        body {
             font-family: 'Yeon Sung', cursive;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
         }
 
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-auto-rows: 200px;
-        gap: 10px;
-        padding: 10px;
-        max-width: 900px;
-        margin: auto;
-    }
+        h1 {
+            margin-bottom: 20px;
+        }
 
-    .gallery img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 10px;
-    }
-</style>
+        .gallery {
+            column-count: 3; 
+            column-gap: 15px;
+            max-width: 1000px;
+            margin: auto;
+        }
 
-</div>
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+    
+        @media (max-width: 900px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .gallery {
+                column-count: 1;
+            }
+        }
     </style>
 </head>
 <body>
@@ -43,7 +58,7 @@
         <img src="jsj1.jpg" alt="wtw1">
         <img src="jsj2.jpg" alt="wtw2">
         <img src="jsj3.JPG"="wtw3">
-        <img src="jsj.JPG" alt="wtw4">
+        <img src="jsj4.JPG" alt="wtw4">
         
     
 </body>

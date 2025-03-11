@@ -3,3 +3,7 @@ body{
     text-align: center;
   }
 
+body {
+    background: url('https://www.transparenttextures.com/patterns/clouds.png') repeat;
+    background-color: #faf3e0;
+}

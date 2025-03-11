@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <title>한서영</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Yeon Sung', cursive;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            column-count: 3; 
+            column-gap: 15px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+    
+        @media (max-width: 900px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .gallery {
+                column-count: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>서영이(서연아님)</h1>
+    <div class="gallery">
+        <img src="hsy01.jpg" alt="kms1">
+        <img src="kms2.JPG" alt="kms2">
+        <img src="kms3.JPG" alt="kms3">
+        <img src="kms4.JPG" alt="kms4">
+        <img src="kms5.jpg" alt="kms5">
+        <img src="kms6.jpg" alt="kms6">
+        <img src="kms7.jpg" alt="kms4">
+        <img src="kms8.jpg" alt="kms5">
+        <img src="kms9.jpg" alt="kms6">
+        <img src="kms10.jpg" alt="kms5">
+        <img src="kms11.jpg" alt="kms6">
+
+        <video controls width="100%">
+            <source src="msvideo.mp4" type="video/mp4">
+            브라우저가 동영상을 지원하지 않습니다.
+        </video>
+    </div>
+</body>
+</html>

@@ -6,13 +6,61 @@
     <link rel="stylesheet" href="./2019.css">
     <title>2019년으로</title>
 </head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Yeon Sung', cursive;
+        background-color: #f8f9fa;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .gallery {
+        column-count: 3; 
+        column-gap: 15px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .gallery img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+
+    @media (max-width: 900px) {
+        .gallery {
+            column-count: 2;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .gallery {
+            column-count: 1;
+        }
+    }
+</style>
 <h1>2019</h1>
 <br>
 <br>
 <body>
-    <img src="2019photos/201901.JPG" alt="1학년단체사진" width="700" height="500">
+    <div class="gallery">
+    <img src="2019photos/201901.JPG" alt="1학년단체사진" >
     <br>
-    <img src="2019photos/201902.JPG" alt="명두상승은" width=800" height="1000">
-    <img src="2019photos/201903.JPG" alt="은준" width="500" height="500">
-    <img src="2019photos/20년맞이등산.JPG" alt="20등산" width=600" height="600">
+    <img src="2019photos/201902.JPG" alt="명두상승은" >
+    <img src="2019photos/201903.JPG" alt="은준" >
+    <img src="2019photos/20년맞이등산.JPG" alt="20">
+    <img src="2019photos/withsj.JPG" alt ="withsj">
 </body>

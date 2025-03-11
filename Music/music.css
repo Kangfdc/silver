@@ -51,9 +51,16 @@ a{
 }
 
 .medium-text {
-  font-size: 26px;
+  font-size:26px;
+}
+.samll-text{
+  font-size:17px;
 }
 b5{
   color:rgb(245, 190, 108);
+  text-decoration: none
+}
+b6{
+  color:rgb(236, 141, 129);
   text-decoration: none
 }

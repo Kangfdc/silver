@@ -1,5 +1,6 @@
 body{
     text-align: center;
+  
   }
 
 b1{
@@ -15,14 +16,29 @@ b3{
   color:yellow;
   text-decoration: none
 
+
 }
+
 b4{
   color:gainsboro;
   text-decoration: none
-
 }
+
 .gong {
   display: block;
   padding: 25px;
   
 }
+a{
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: blue;
+  background: rgba(203, 89, 231, 0.2); 
+  padding: 15px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+

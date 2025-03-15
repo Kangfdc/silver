@@ -1,38 +1,33 @@
 body{
-    text-align: center;
-  }
-
-  body {
-    background: linear-gradient(to bottom, #3a3d40, #18181a);
-    color: #e0e0e0;
-    filter: grayscale(50%); 
+  text-align: center;
 }
 
-    a{
-  display: block;
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: white;
-  background: rgba(255, 255, 255, 0.2); /* 반투명한 느낌 */
-  padding: 15px;
-  margin: 10px auto;
-  width: 300px;
-  border-radius: 10px;
-  transition: all 0.3s ease-in-out;
+body {
+  background: linear-gradient(to bottom, #ffdee9, #b5fffc); /* 핑크 -> 민트 */
+  color: #5a5a5a; /* 부드러운 회색 */
+  filter: grayscale(0%); /* 흑백 효과 제거 */
+}
+
+
+  a{
+display: block;
+text-decoration: none;
+font-size: 1.5rem;
+color: rgb(201, 85, 181);
+background: rgba(255, 255, 255, 0.2); /* 반투명한 느낌 */
+padding: 15px;
+margin: 10px auto;
+width: 300px;
+border-radius: 10px;
+transition: all 0.3s ease-in-out;
 }
 a:hover {
-  background: rgba(255, 255, 255, 0.5);
-  color: purple;
-  transform: scale(1.05);
+background: rgba(255, 255, 255, 0.5);
+color: purple;
+transform: scale(1.05);
 }
 hr {
-  width: 50%;
-  margin: 20px auto;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.sad-text {
-  font-size: 24px;
-  color: rgba(224, 224, 224, 0.7); /* 흐린 글자 */
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* 희미한 그림자 */
+width: 50%;
+margin: 20px auto;
+border: 1px solid rgba(255, 255, 255, 0.3);
 }

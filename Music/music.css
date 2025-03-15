@@ -1,123 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="./music.css">
-    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
-    <style>
-     
-        .year {
-            display: block;
-            padding: 3rem 0;
-        }
+body{
+    text-align: center;
+    background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png') repeat;
+    background-color: #222;
+    color: #ddd;
+  
+  }
+  .big-text {
+    font-size: 40px;
+  }
+  
+  .medium-text {
+    font-size:26px;
+  }
+  .samll-text{
+    font-size:17px;
+  }
+h1{
+  font-size: 60px;
+}
+b1{
+    color:red;
+    text-decoration: none; 
+}
+b2{
+  color: orange;
+  text-decoration: none; 
 
-        .font {
-            font-family: 'Yeon Sung', cursive;
-          
-         
-        }
-        
-        b {
-            font-weight: bold;
-        }
-
-        a {
-            text-decoration: none; 
-        }
-        .gong {
-            display: block;
-            padding: 3rem 0;
-        }
+}
+b3{
+  color:yellow;
+  text-decoration: none
 
 
-       
-    </style>
-    <title>뮤직후드</title>
-</head>
-<body>
-    <h1 class="font">MusicHood</h1>
-    
-    
+}
 
-    <a href="https://youtu.be/OhjC4mC1eEw?si=1tZPqKi86jxtX-dk" target="_blank">
-        <b1 class="font gong">
-        <span class="big-text">Lake of Love</span> <br>
-         <span class="medium-text">[Paul blanco]<br></span>
-         <span class="small-text">2023 Winter</span>
-    <a href="https://youtu.be/XX3N6Mb1364?si=pGXU2HYDkJOizrAm" target="_blank">
-        <b2 class="font gong">
-        <span class="big-text">BeBe</span> <br>
-        <span class="medium-text">[Paul blanco, 창모]<br></span>
-        <span class="small-text">2020 summer</span>
+b4{
+  color:gainsboro;
+  text-decoration: none
+}
 
-    <a href="https://youtu.be/hEJzhUNc9Rw?si=0IJ628HwI4wTFFHV" target="_blank">
-        <b3 class="font gong">
-        <span class="big-text">Bape</span> <br>
-        <span class="medium-text">[창모]<br></span>
-        <span class="small-text">2018 Winter</span>
-        </b> <br>
-    <a href="https://youtu.be/fuz2F8GGQKI?si=Z17RKXJy4_COkO1W" target="_blank">
-        <b4 class="font gong">
-        <span class="big-text">거리에서</span> <br>
-        [릴러말즈]<br>
-    <span class="medium-text">(feat-Ash Island)<br></span>
-        <span class="small-text">2023 Autumn</span>
+.gong {
+  display: block;
+  padding: 25px;
 
-    <a href="https://youtu.be/B0sBYLag3-s?si=elI0XAxIsqNYHjBU" target="_blank">
-        <b5 class="font gong">
-            <span class="big-text">Interlude</span><br>
-            <span class="medium-text">[창모]<br></span>
-            <span class="small-text">2018 Winter</span>
-        </b5>
-            
-        
-    <a href="https://youtu.be/AJ75-7IIjRs?si=swMaVY8Pdo2Kc1eS" target="_blank">
-        <b6 class="font gong">
-            <span class="big-text">I swear i'll never leave again</span><br>
-            <span class="medium-text">[Keshi]<br></span>
-            <span class="small-text">2019 Winter</span>
-        </b6>
+   
+}
+a{
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background: rgba(203, 89, 231, 0.2); 
+  padding: 15px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
 
-        <a href="https://youtu.be/Jv-N2A7ULzU?si=mB0mUVuySypzAgjp" target="_blank">
-            <b7 class="font gong">
-                <span class="big-text">생각이 나서</span><br>
-                <span class="medium-text">[Ash Island]<br></span>
-                <span class="small-text">2024~25 Winter</span>
-            </b7>
-            <a href="https://youtu.be/0iJMMtcuOwQ?si=UV07xlbYHwmVNcgo" target="_blank">
-                <b8 class="font gong">
-                    <span class="big-text">As you Wish</span><br>
-                    <span class="medium-text">[Paul blanco]<br></span>
-                    <span class="small-text">2020 Summer</span>
-                </b8>
-                <a href="https://youtu.be/rzeTkPxr2HU?si=91oMCtVD9ombqd-V" target="_blank">
-                    <b8 class="font gong">
-                        <span class="big-text">Better days</span><br>
-                        <span class="medium-text">[Paul blanco]<br></span>
-                        <span class="small-text">2020 Summer</span>
-                    </b8>
-                <a href="https://soundcloud.com/changmo/my-love-demo-produced-by-changmo?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
-                    <b9 class="font gong">
-                        <span class="big-text">My love</span><br>
-                        <span class="medium-text">[창모]<br></span>
-                        <span class="small-text">2021 Spring</span>
-                    </b9>
-                    <a href="https://youtu.be/vY-xU3hk48o?si=OUj9hfhUrFco1lxO" target="_blank">
-                        <b10 class="font gong">
-                            <span class="big-text">Like the First time</span><br>
-                            <span class="medium-text">[Ash island]<br></span>
-                            <span class="medium-text">(feat-Skinny Brown)<br></span>
-                            <span class="small-text">2025 Winter ~ Spring</span>
-                        </b10>
-                   
-                        
-        </b> <br>
-    </b> <br>
-      
-     
-    </a>
-    
-</body>
-</html>
+
+b5{
+  color:rgb(245, 190, 108);
+  text-decoration: none
+}
+b6{
+  color:rgb(238, 59, 35);
+  text-decoration: none
+}
+b7{
+  color:rgba(75, 101, 248, 0.774);
+  text-decoration: none
+
+}
+b8{
+  color:rgba(33, 33, 36, 0.932);
+  text-decoration: none
+
+}
+b9{
+  color:rgba(15, 15, 209, 0.932);
+  text-decoration: none
+
+
+}
+b10{
+  color:rgba(212, 153, 167, 0.932);
+  text-decoration: none
+
+
+}

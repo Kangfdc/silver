@@ -1,15 +1,33 @@
-body {
-    background-image: url('photos/milkyway1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+  body {
+      background: linear-gradient(to bottom, #3a3d40, #18181a);
+      color: #e0e0e0;
+      filter: grayscale(50%); 
+  }
+
 
 body{
     text-align: center;
   }
 
-
-body{
-    
-}
+  a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background: rgba(255, 255, 255, 0.2); /* 반투명한 느낌 */
+    padding: 15px;
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  a:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: red;
+    transform: scale(1.05);
+  }
+  .sad-text {
+    font-size: 24px;
+    color: rgba(224, 224, 224, 0.7); 
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); 
+  }

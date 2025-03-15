@@ -5,7 +5,7 @@ body{
 /* 🏞️ 전체 배경 스타일 */
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(120deg, #1e3c72, #2a5298); /* 블루 그라디언트 */
+  background: linear-gradient(120deg, #97989b, #1d1e1f); /* 블루 그라디언트 */
   color: white;
   text-align: center;
   margin: 0;

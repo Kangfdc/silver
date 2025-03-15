@@ -3,7 +3,10 @@ body{
     text-align: center;
   }
 
+
+
 body {
-    background-color: #fefaf5; 
-    color: #5a5a5a;
+  background: linear-gradient(to bottom, #ffdee9, #b5fffc); 
+  color: #5a5a5a; 
+  filter: grayscale(0%); 
 }

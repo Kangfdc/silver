@@ -1,0 +1,13 @@
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #f8ffef #cfcfff); 
+    color: #5a5a5a; 
+    filter: grayscale(0%); 
+    
+  }
+
+  h1.font {
+    color: black;      
+    font-size: 50px;    
+}

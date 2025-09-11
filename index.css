@@ -3,8 +3,8 @@ body{
 }
 
 body {
-  background: linear-gradient(to bottom, #ffdee9, #b5fffc); /* 핑크 -> 민트 */
-  color: #5a5a5a; /* 부드러운 회색 */
+  background: linear-gradient(to bottom, #d2cecf, #858888); /* 핑크 -> 민트 */
+  color: #5a5a5a; 
   filter: grayscale(0%); 
 }
 
@@ -13,8 +13,8 @@ body {
 display: block;
 text-decoration: none;
 font-size: 1.5rem;
-color: rgb(228, 105, 166);
-background: rgba(116, 118, 231, 0.2); /* 반투명한 느낌 */
+color: rgb(240, 182, 224);
+background: rgba(59, 61, 162, 0.2);
 padding: 15px;
 margin: 10px auto;
 width: 300px;
@@ -23,7 +23,7 @@ transition: all 0.3s ease-in-out;
 }
 a:hover {
 background: rgba(255, 255, 255, 0.5);
-color: purple;
+color: rgb(0, 0, 0);
 transform: scale(1.05);
 }
 hr {

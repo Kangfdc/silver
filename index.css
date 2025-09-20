@@ -3,7 +3,7 @@ body{
 }
 
 body {
-  background: linear-gradient(to bottom, #d2cecf, #858888); /* 핑크 -> 민트 */
+  background: linear-gradient(to bottom, #d2cecf, #858888); 
   color: #5a5a5a; 
   filter: grayscale(0%); 
 }
